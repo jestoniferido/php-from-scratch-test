@@ -1,0 +1,32 @@
+body{
+	background-color:honeydew;
+}
+.brand{
+	border-bottom:1px solid #ddd;
+	padding: 10px 10px;
+	text-align: center;
+	color: #555;
+	font-size: 25px;
+}
+.container-fluid{
+	padding: 0;
+}
+.text-center{
+	text-align: center;
+}
+.half-custom-container{
+	width: 50%;
+}
+.custom-input{
+	background-color: transparent;
+	border-radius: 0;
+	border-color: transparent;
+	border-bottom: 1px solid #ddd;
+	box-shadow: none;
+}
+
+@media (max-width: 575px) {
+	.half-custom-container{
+		width: 90%;
+	}
+}
